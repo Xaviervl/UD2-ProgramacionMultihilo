@@ -4,7 +4,7 @@ Hilos:
 1.- Implementar Runnable
 2.- Extendido de Thread
  */
-public class EjemploRunnable implements Runnable {
+public class EjemploRunnable_Xaviervl implements Runnable {
 
     @Override
     public void run() {
@@ -18,7 +18,7 @@ class Main{
     public static void main(String[] args) {
         // para lanzar un hilo
         // 1.- Crea un objeto de la clase que implementa Runnable
-        EjemploRunnable task1 = new EjemploRunnable();
+        EjemploRunnable_Xaviervl task1 = new EjemploRunnable_Xaviervl();
         // 2.- Creamos el objeto Thread pasandole en el constructor la tarea task
         Thread hilo1 = new Thread(task1);
         Thread hilo2 = new Thread(task1, "Hilo negro");
